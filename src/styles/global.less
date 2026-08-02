@@ -1,0 +1,64 @@
+@import "./variables.less";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: @fuente-principal;
+  color: @color-texto;
+  background-color: @color-claro;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+main {
+  min-height: 70vh;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.boton {
+  display: inline-block;
+  padding: 12px 20px;
+  color: @color-blanco;
+  background-color: @color-primario;
+  border: none;
+  border-radius: @radio-pequeno;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: @color-oscuro;
+  }
+}

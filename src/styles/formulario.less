@@ -1,0 +1,50 @@
+@import "./variables.less";
+
+.contacto-contenido {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.formulario {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  background-color: @color-blanco;
+  border-radius: @radio-medio;
+  box-shadow: @sombra-tarjeta;
+
+  label {
+    margin-bottom: 7px;
+    color: @color-texto;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: @radio-pequeno;
+
+    &:focus {
+      outline: 2px solid lighten(@color-secundario, 20%);
+      border-color: @color-primario;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  &-mensaje {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 850px) {
+  .contacto-contenido {
+    grid-template-columns: 1fr;
+  }
+}
