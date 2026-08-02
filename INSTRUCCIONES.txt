@@ -1,0 +1,22 @@
+PROYECTO: Agua Purificada El Guayabirito
+
+1. Abre la carpeta en Visual Studio Code.
+2. Abre la terminal dentro de la carpeta.
+3. Ejecuta: npm install
+4. Ejecuta: npm run dev
+5. Abre la dirección que aparece en la terminal.
+
+TECNOLOGÍAS:
+- React y React DOM
+- React Router DOM mediante HashRouter, compatible con GitHub Pages
+- Handlebars para generar las tarjetas del catálogo
+- LESS para todos los estilos
+- Vite
+
+ANTES DE ENTREGAR:
+- Cambia el número 50499999999 por el número real de WhatsApp.
+- Cambia precios demostrativos por precios reales.
+- Coloca fotografías reales y optimizadas en la galería.
+- Ejecuta npm run build.
+- Publica el repositorio y GitHub Pages.
+- Prueba ambos enlaces en una ventana de incógnito.
