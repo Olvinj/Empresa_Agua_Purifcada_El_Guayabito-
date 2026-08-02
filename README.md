@@ -1,4 +1,4 @@
-# Agua Purificada El Guayabirito
+# Agua Purificada El Guayabito
 
 Proyecto académico completo desarrollado con:
 
