@@ -1,7 +1,16 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+function Programas() {
+  return (
+    <section className="pagina">
+      <div className="contenedor">
+        <h1>Nuestros Productos</h1>
 
-export default defineConfig({
-  plugins: [react()],
-  base: "/Empresa_Agua_Purifcada_El_Guayabito-/",
-});
+        <p>
+          Conoce las diferentes presentaciones de agua purificada
+          que ofrece Agua Purificada El Guayabito.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export default Programas;
