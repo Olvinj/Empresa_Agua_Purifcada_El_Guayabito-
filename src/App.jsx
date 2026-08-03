@@ -13,7 +13,7 @@ import Galeria from "./pages/galeria/Galeria";
 import Help from "./pages/help/Help";
 import Integracion from "./pages/integracion/Integracion";
 import Nosotros from "./pages/nosotros/Nosotros";
-import Programas from "./pages/programas/Programas";
+import Programas from "./pages/Programas/Programas";
 
 function App() {
   return (
