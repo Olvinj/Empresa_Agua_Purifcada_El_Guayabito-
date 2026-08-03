@@ -5,3 +5,4 @@ export default defineConfig({
   plugins: [react()],
   base: "/Empresa_Agua_Purifcada_El_Guayabito-/",
 });
+
