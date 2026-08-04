@@ -1,11 +1,17 @@
 # Agua Purificada El Guayabito
 
-# Integrantes 
--Yoselin Grisel Solis Meraz 
-1522200600307
--Olvin Javier Martinez Funez 
-1503200402442
+## Integrantes
 
+- **Yoselin Grisel Solís Meraz**  
+  **Cuenta:** 1522200600307
+
+- **Olvin Javier Martínez Fúnez**  
+  **Cuenta:** 1503200402442
+
+Luis Daniel Hernandez, 0210200500902
+---
+
+## Proyecto académico
 
 Proyecto académico completo desarrollado con:
 
@@ -16,17 +22,11 @@ Proyecto académico completo desarrollado con:
 - LESS
 - Vite
 
+---
+
 ## Instalación
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Compilar
-
-```bash
-npm run build
-npm run preview
-```
-

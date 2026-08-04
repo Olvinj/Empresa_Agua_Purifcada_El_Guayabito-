@@ -36,11 +36,11 @@ function Contacto() {
             </p>
 
             <p>
-              Teléfono: +504 9999-9999
+              Teléfono: +504 9391-5769
             </p>
 
             <p>
-              Correo: contacto@elguayabirito.com
+              Correo: contacto@elguayabito.com
             </p>
           </div>
 
