@@ -1,5 +1,12 @@
 # Agua Purificada El Guayabito
 
+# Integrantes 
+-Yoselin Grisel Solis Meraz 
+1522200600307
+-Olvin Javier Martinez Funez 
+1503200402442
+
+
 Proyecto académico completo desarrollado con:
 
 - React
