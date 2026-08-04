@@ -6,59 +6,59 @@ import {
   CardFooter,
 } from "../../components/cards";
 
-const productos = [
+const servicios = [
   {
     id: 1,
-    nombre: "Botellón de agua",
+    titulo: "Agua 100% Purificada",
     descripcion:
-      "Botellón de agua purificada ideal para hogares y oficinas.",
-    precio: "L 40.00",
-    imagen: "/images/botellon.jpg",
+      "Aplicamos procesos de purificación y control de calidad para ofrecer agua segura, limpia y de excelente sabor para toda la familia.",
+    texto: "Calidad Garantizada",
+    imagen: `${import.meta.env.BASE_URL}images/agua1.png`,
   },
   {
     id: 2,
-    nombre: "Botella de agua",
+    titulo: "Distribución a Domicilio",
     descripcion:
-      "Botella de agua purificada para actividades y uso personal.",
-    precio: "L 15.00",
-    imagen: "/images/botella.jpg",
+      "Llevamos nuestros productos hasta hogares, negocios y empresas con un servicio rápido, seguro y puntual.",
+    texto: "Entrega Rápida",
+    imagen: `${import.meta.env.BASE_URL}images/agua2.png`,
   },
   {
     id: 3,
-    nombre: "Bolsa de agua",
+    titulo: "Compromiso con Nuestros Clientes",
     descripcion:
-      "Presentación práctica y económica para mantenerse hidratado.",
-    precio: "L 5.00",
-    imagen: "/images/bolsa.jpg",
+      "Nuestro objetivo es brindar la mejor atención y mantener la confianza de nuestros clientes mediante un servicio responsable y de calidad.",
+    texto: "Excelente Atención",
+    imagen: `${import.meta.env.BASE_URL}images/agua3.png`,
   },
 ];
 
-function Programas() {
+function Inicio() {
   return (
     <section className="pagina">
       <div className="contenedor">
-        <h1>Nuestros productos</h1>
+        <h1>Bienvenidos a Agua Purificada El Guayabito</h1>
 
         <p className="introduccion">
-          Conoce las diferentes presentaciones de agua
-          purificada que ofrecemos.
+          En Agua Purificada El Guayabito trabajamos para ofrecer agua de la
+          más alta calidad, utilizando procesos de purificación confiables y
+          un servicio de distribución eficiente. Nuestra misión es brindar un
+          producto seguro que contribuya al bienestar de nuestros clientes.
         </p>
 
         <div className="grid-cards">
-          {productos.map((producto) => (
-            <Card key={producto.id}>
+          {servicios.map((servicio) => (
+            <Card key={servicio.id}>
               <CardHeaderImg
-                imagen={producto.imagen}
-                alt={producto.nombre}
+                imagen={servicio.imagen}
+                alt={servicio.titulo}
               />
 
-              <CardHeader titulo={producto.nombre} />
+              <CardHeader titulo={servicio.titulo} />
 
-              <CardBody
-                descripcion={producto.descripcion}
-              />
+              <CardBody descripcion={servicio.descripcion} />
 
-              <CardFooter precio={producto.precio} />
+              <CardFooter precio={servicio.texto} />
             </Card>
           ))}
         </div>
@@ -67,4 +67,4 @@ function Programas() {
   );
 }
 
-export default Programas;
+export default Inicio;

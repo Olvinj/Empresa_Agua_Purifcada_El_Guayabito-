@@ -16,26 +16,32 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  text-decoration: none;
 
-  &-icono {
-    font-size: 32px;
+  &-imagen {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
   }
 
-  span:last-child {
+  &-texto {
     display: flex;
     flex-direction: column;
+    line-height: 1.2;
   }
 
   strong {
     color: @color-oscuro;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
 
   small {
     color: @color-gris;
+    font-size: 0.9rem;
   }
 }
-
 .nav {
   &-lista {
     display: flex;
