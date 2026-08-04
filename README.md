@@ -8,7 +8,14 @@
 - **Olvin Javier Martínez Fúnez**  
   **Cuenta:** 1503200402442
 
-Luis Daniel Hernandez, 0210200500902
+-**Luis Daniel Hernandez**
+**Cuenta:** 0210200500902
+
+-**Carlos Javier Nuñez**
+**Cuenta:** 1807200501024
+
+**Gerardo Antonio Garcia**
+**Cuenta:** 0201200500008
 ---
 
 ## Proyecto académico
